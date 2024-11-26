@@ -7,16 +7,10 @@ This project implements an iterative learning pipeline for detecting sports ball
 ## Repository Contents
 
 - `sports_ball_detection.ipynb`: Main Jupyter notebook with the complete project implementation
-- `sports_ball_detection/`: Folder containing sample visualisations and detection results
-  - `data/`: Frame samples from raw videos and the YOLO generated dataset of annotated frames and labels 
-  - `results/`: Results including data visualisations
-    - `metrics/`: Plot of performance metrics each interation
-    - `detection_videos/`: Visualisation of the model's ball detection. These videos include a box overlay to indicate ball detection by the model
-    - `visualisations/`: Include single frame visualisations for various videos to demonstrate the models performance on different videos
-  - `results/`: Visualisations of results
-    - `detection_videos/`: Annotated videos showing ball detection, with bounding boxes highlighting the model's detection capabilities
-    - `metrics/`: Performance metrics plotted across iterations
-    - `visualisations/`: Representative single-frame snapshots demonstrating the model's detection performance across different video scenarios
+- `results/`: Example visualisations of results
+  - `detection_videos/`: Annotated videos showing ball detection, with bounding boxes highlighting the model's detection capabilities
+  - `metrics/`: Performance metrics plotted across iterations
+  - `visualisations/`: Representative single-frame snapshots demonstrating the model's detection performance across different video scenarios
 
 ## Key Features
 
